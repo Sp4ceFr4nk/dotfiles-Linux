@@ -142,7 +142,7 @@ configuration {
 /*	me-accept-custom: "Control+MouseDPrimary";*/
   display-drun: "Applications:";
   drun-display-format: "{icon} {name}";
-  font: "JetBrainsMono 10";
+  font: "JetBrainsMono Nerd Font 16";
   show-icons: true;
   icon-theme: "Papirus";
 }
@@ -150,7 +150,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg:     #272A3A;
+  bg:     #292929;
   bg-alt: #70B14F;
 
   fg:     #F3F4F5;
@@ -185,7 +185,7 @@ element-text {
 }
 
 element-icon {
-  size:30;
+  size:40;
   background-color: inherit;
 }
 
@@ -207,7 +207,7 @@ inputbar {
 
 listview {
   //background-color: @bg;
-  column: 1;
+  columns: 2;
   lines: 10;
+  layout: vertical;
 }
-

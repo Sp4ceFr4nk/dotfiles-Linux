@@ -1,0 +1,48 @@
+! Colorscheme
+
+! special
+*.foreground:   #f3f4f5
+*.background:   #292929
+*.cursorColor:  #edcf4f
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #cf3f61
+*.color9:       #d18fa6
+
+! green
+*.color2:       #7bb75b
+*.color10:      #34a853
+
+! yellow
+*.color3:       #e9b32a
+*.color11:      #c98a34
+
+! blue
+*.color4:       #4c9ad4
+*.color12:      #135979
+
+! magenta
+*.color5:       #a57fc4
+*.color13:      #389aad
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #76bbca
+
+! white
+*.color7:       #f3f4f5
+*.color15:      #b2b5ae
+
+
+! Font
+URxvt.font: xft:JetBrainsMono\ Nerd\ Font:style=Regular:size=12:antialias=true
+
+! Remove the scrollbar
+URxvt.scrollBar: false
+
+! Tabbed terminal && font resizable
+URxvt.perl-ext-common: resize-font
