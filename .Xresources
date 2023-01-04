@@ -46,3 +46,6 @@ URxvt.scrollBar: false
 
 ! Tabbed terminal && font resizable
 URxvt.perl-ext-common: resize-font
+
+! Padding 
+URxvt.internalBorder: 8 
