@@ -11,7 +11,7 @@ xrandr -s 1920x1080 &
 /usr/bin/wireplumber &
 # add the wallpaper
 $HOME/.fehbg &
-# esegue polybar
+# start polybar
 exec polybar &
-# esegue i3
+# start i3
 exec i3
