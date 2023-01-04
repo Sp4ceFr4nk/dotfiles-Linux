@@ -1,0 +1,66 @@
+configuration {
+  font: "JetBrainsMono Nerd Font 16";  
+  show-icons: true;
+}
+
+@theme "/dev/null"
+
+* {
+  bg:     #292929;
+  bg-alt: #70B14F;
+  
+  fg:     #F3F4F5;
+  fg-alt: #676E7D;
+
+  
+  background-color: @bg;
+
+  border:  0;
+  margin:  0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  position: center;
+  width:  30%;
+  height: 15%;
+}
+
+inputbar {
+  background-color: @bg-alt;
+}
+
+prompt{
+  background-color: @bg-alt;
+  text-color: @fg;
+  padding: 12;
+}
+
+entry {
+  background-color: @bg-alt;
+  padding: 12;
+  text-color: @fg;
+}
+
+message {
+  expand: true;
+  dynamic: true;
+
+}
+
+textbox {
+  background-color: @bg;
+  padding: 12;
+  text-color: @fg-alt;
+  dynamic: true;
+  expand: true;
+}
+textbox-dummy{
+  expand: true;
+}
+
+element {
+  enabled: false;
+}
+
