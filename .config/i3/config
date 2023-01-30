@@ -168,10 +168,13 @@ client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color          $urgent-bg-color
 
 # Start autotiling to have a similar behaviour to bspwm
-exec_always --no-startup-id autotiling
+exec_always --no-startup-id autotiling &
 
 # Start polybar every time
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
+
+# Start autoname-workspaces --> puts open application near workspace's number
+exec_always $HOME/.config/i3/scripts/autoname_workspaces.py &
 
 # Control volume from keyboard
 bindsym Ctrl+Up exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
