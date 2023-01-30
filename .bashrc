@@ -14,6 +14,7 @@ krabby random
 
 # alias p for pacman
 alias p='doas pacman'
+alias remove='p -Rsc'
 
 alias ls='exa -1 --icons'
 alias ll='exa -lh --icons'
